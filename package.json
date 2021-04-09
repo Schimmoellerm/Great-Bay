@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Schimmoellerm/Great-Bay#readme",
   "dependencies": {
-    "inquirer": "^8.0.0"
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1",
+    "sql": "^0.78.0"
   }
 }
