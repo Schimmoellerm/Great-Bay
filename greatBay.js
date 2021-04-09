@@ -29,16 +29,6 @@ const questions = [
      name: 'bid',
      message: 'What is your starting BID?'
  },
- {
-     type: 'input',
-     name: 'install',
-     message: 'What are the installation instructions?',
- },
- {
-     type: 'input',
-     name: 'usage',
-     message: 'What is the usage and or uses for your application'
- },
 ]
 
 
