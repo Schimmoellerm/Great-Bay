@@ -42,4 +42,3 @@ const questions = [
 ]
 
 
-if
