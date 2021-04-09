@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const path = require('path');
 const mysql = require('mysql');
+const { inherits } = require("util");
 
 const connection = mysql.createConnection({
   host: 'localhost',
@@ -29,6 +30,13 @@ const questions = [
      name: 'bid',
      message: 'What is your starting BID?'
  },
-]
+];
 
+function init() {
+    inquirer.prompt(questions)
+        .then(responses => {
+           console.log(responses)
+        })
+}
 
+init();
