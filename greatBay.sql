@@ -8,8 +8,8 @@ USE greatBayDB;
 CREATE TABLE items (
     id INT NOT NULL AUTO_INCREMENT,
     item VARCHAR(50) NULL,
-    minBid DECIMAL (1000,2) NULL,
-    currentBid DECIMAL (1000,2) NULL,
+    minBid INT (1000) NULL,
+    currentBid INT (1000) NULL,
     PRIMARY KEY (id)
 );
 
